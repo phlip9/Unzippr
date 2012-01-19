@@ -1,0 +1,23 @@
+Unzippr
+=======
+
+Unzippr is a simple drag-and-drop zipper and unzipper which also supports .rar and .7z archives.
+
+Download
+--------
+
+You can find the fully compiled and packaged .jar file here: http://dl.dropbox.com/u/22652332/Unzippr.jar
+
+Build
+-----
+
+Four libraries are required to build this:
+
+  * Apache Commons Logging Library - http://commons.apache.org/logging/download_logging.cgi
+  * Apache Tika 1.0 - http://tika.apache.org/download.html
+  * java-unrar - https://github.com/jukka/java-unrar
+  * j7zip - download: http://dl.dropbox.com/u/22652332/j7zip.jar - original site: http://sourceforge.net/projects/p7zip/
+
+Next add the libraries to the build path. Eclipse users follow these instructions: http://wiki.eclipse.org/FAQ_How_do_I_add_an_extra_library_to_my_project's_classpath%3F
+
+Finally, Build and run. The project should compile without any errors.
